@@ -1,0 +1,143 @@
+.slideshow-container {
+  background-color: #fff;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide video {
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Thumbnails */
+.thumbnails {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  flex-basis: calc(100% / 8);
+  cursor: pointer;
+  height: 100%; /*80px;*/
+}
+
+.thumbnail img {
+  width: 99%;
+  height: 100%; /*80px;*/
+}
+
+.thumbnail.active {
+  border: 2px solid blue;
+}
+
+/* Arrows */
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Conserve l'aspect ratio de l'image */
+}
+/*thumbnails */
+.thumbnails {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+}
+
+.thumbnail {
+  flex-grow: 0; /* Désactive le redimensionnement flexible */
+  flex-shrink: 0; /* Désactive le rétrécissement flexible */
+  flex-basis: calc(100% / 8); /* Définit la base de flexibilité */
+  cursor: pointer;
+  height: 100%; 
+  overflow: hidden; 
+  object-fit: contain; /* Conserve l'aspect ratio */
+  width: 99%;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100px; 
+}
+
+.thumbnail.active {
+  border: 2px solid blue;
+}
+
+/*  Flèches directionnelles */
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+

@@ -1,0 +1,35 @@
+.tooltip-container {
+  position: relative;
+  display: inline;
+}
+
+.tooltip-text {
+  cursor: pointer;
+}
+
+.tooltip-content {
+  display: none;
+  position: absolute;
+  top: 90%; /* Modifié de bottom à top */
+  left: 0%; /* baisser le % pour déplacer la Tooltip vers la gauche */
+  transform: translate(
+    -50%,
+    0px
+  ); /* Ajusté pour se positionner en dessous du texte */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 370px; /* Augmenté pour rendre la boîte plus large */
+  text-align: left;
+  padding: 8px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.tooltip-text:hover .tooltip-content {
+  display: block;
+}
+
+.tooltip-content a {
+  color: blue;
+  text-decoration: underline;
+}
