@@ -202,7 +202,9 @@ a {
   }
 
   .conteneurTechnos {
-    width: 98%;
+    width: 97%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
   }
 }
 
