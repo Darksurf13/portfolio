@@ -623,7 +623,7 @@ a {
   margin: 0;
   font-family: "Inter";
   font-size: 30px;
-  width: 230px;
+  width: 300px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -634,7 +634,7 @@ a {
 
 @media screen and (max-width: 768px) {
   .texteOU {
-    height: 400px;
+    height: 450px;
   }
 
   .PtexteOU {

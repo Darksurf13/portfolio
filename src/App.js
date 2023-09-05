@@ -42,10 +42,15 @@ function App() {
         <div className="conteneurIntOU">
           <div className="texteOU">
             <p className="PtexteOU">
-              Visual Studio Code <br />
+              VS Code
+               <br />
+              Codepen 
+              <br />
+              <br />
               Git
               <br />
               GitHUB
+              <br />
               <br />
               Figma
               <br />
@@ -55,7 +60,7 @@ function App() {
               Filezilla
               <br />
               Ionos
-              <br />
+              miro<br />
               <br />
               Trello
               <br />
@@ -68,9 +73,11 @@ function App() {
             <p className="PtexteOU">
               Chrome Dev Tools
               <br />
+              <br />
               Google Lighthouse
               <br />
               Wave Evaluation Tool
+              <br />
               <br />
               Toptal
               <br />
@@ -84,6 +91,7 @@ function App() {
               Daily dev
               <br />
               Feedly
+              <br />
               <br />
               W3C validator
             </p>

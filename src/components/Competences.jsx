@@ -12,7 +12,7 @@ function Competences() {
               <p className="TEXTEconteneurCPTfb">
                 <strong>FRONTEND </strong>
                 HTML5 <br />
-                CSS3 <br />
+                CSS3/SASS <br />
                 Responsive <br />
                 JAVASCRIPT <br />
                 REACT.js <br />
