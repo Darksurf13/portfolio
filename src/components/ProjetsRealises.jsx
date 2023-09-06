@@ -45,7 +45,7 @@ function ProjetsRealises() {
         <div className="conteneurIntG">
           <p className="github">
             <strong>
-              <a href="https://github.com/Darksurf13?tab=repositories" target="_blank">
+              <a href="https://github.com/Darksurf13?tab=repositories" target="_blank" rel="noopener noreferrer">
                 {" "}
                 Ma page GITHUB : Lien
               </a>
@@ -87,13 +87,13 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p className="code">
-                <a href="https://github.com/Darksurf13/PROJET2" target="_blank">
+                <a href="https://github.com/Darksurf13/PROJET2" target="_blank" rel="noopener noreferrer">
                   code
                 </a>
               </p>
             </div>
             <div className="conteneurIntDgCARRE12">
-              <a href="https://darksurf13.github.io/PROJET2/" target="_blank">
+              <a href="https://darksurf13.github.io/PROJET2/" target="_blank" rel="noopener noreferrer">
                 <img src={oeil} alt="oeil" className="oeil" />
               </a>
             </div>
@@ -102,7 +102,7 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p className="code">
-                <a href="https://github.com/Darksurf13/PROJET3" target="_blank">
+                <a href="https://github.com/Darksurf13/PROJET3" target="_blank" rel="noopener noreferrer">
                   code
                 </a>
               </p>
@@ -142,13 +142,13 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p className="code">
-                <a href="https://github.com/Darksurf13/PROJET6" target="_blank">
+                <a href="https://github.com/Darksurf13/PROJET6" target="_blank" rel="noopener noreferrer">
                   code
                 </a>
               </p>
             </div>
             <div className="conteneurIntDgCARRE12">
-              <a href="https://darksurf13.github.io/PROJET6/" target="_blank">
+              <a href="https://darksurf13.github.io/PROJET6/" target="_blank" rel="noopener noreferrer">
                 <img src={oeil} alt="oeil" className="oeil" />
               </a>
             </div>
@@ -157,7 +157,7 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p className="code">
-                <a href="https://github.com/Darksurf13/PROJET7" target="_blank">
+                <a href="https://github.com/Darksurf13/PROJET7" target="_blank" rel="noopener noreferrer">
                   code
                 </a>
               </p>
@@ -168,7 +168,7 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1"></div>
             <div className="conteneurIntDgCARRE12">
-              <a href="http://www.linkusworld.com/" target="_blank">
+              <a href="http://www.linkusworld.com/" target="_blank" rel="noopener noreferrer">
                 <img src={oeil} alt="oeil" className="oeil" />
               </a>
             </div>
