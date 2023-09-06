@@ -60,7 +60,8 @@ function App() {
               Filezilla
               <br />
               Ionos
-              miro<br />
+              <br />
+              miro
               <br />
               Trello
               <br />
