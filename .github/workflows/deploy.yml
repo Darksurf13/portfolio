@@ -12,10 +12,10 @@ jobs:
     - name: Checkout 🛎️
       uses: actions/checkout@v2
 
-    - name: Use Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '14.x'
+    name: Use Node.js
+  uses: actions/setup-node@v2  # Mise à jour vers v2
+  with:
+    node-version: '16.x'  # Utilisation de Node 16
 
     - name: Install and Build 🔧
       run: |
