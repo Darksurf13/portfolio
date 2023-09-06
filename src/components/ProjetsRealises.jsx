@@ -12,7 +12,7 @@ import pdf5 from "../assets/pdf/Piras_Elodie_livrable_n2_rapport_intervention_06
 function ProjetsRealises() {
   const pdfLinks = [
     { text: "Veille Technologique", url: pdf1 },
-    { text: "Spécifications tecniques", url: pdf2 },
+    { text: "Spécifications techniques", url: pdf2 },
     { text: "KANBAN", url: pdf3 },
     { text: "Solution technique", url: pdf4 },
   ];
@@ -71,13 +71,13 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p style={{ display: "none" }} className="code">
-                <a href="">code</a>
+                code
               </p>
             </div>
             <div className="conteneurIntDgCARRE12">
               <a
                 href="https://www.figma.com/file/3yHPZF68rR4ZmgKYBx8h8n/Untitled?type=design&node-id=98-968&mode=design&t=54IyoTyCHmGG7diH-0"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <img src={oeil} alt="oeil" className="oeil" />
               </a>
@@ -113,9 +113,7 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p className="code">
-                <a href="">
-                  <Tooltip links={pdfLinks}>PDF</Tooltip>
-                </a>
+                  <Tooltip links={pdfLinks}><strong>PDFs</strong></Tooltip>
               </p>
             </div>
             <div className="conteneurIntDgCARRE12"></div>
@@ -124,18 +122,16 @@ function ProjetsRealises() {
           <div className="conteneurIntCARRE">
             <div className="conteneurIntDgCARRE1">
               <p className="code">
-                <a href="">
-                  <Tooltip links={codeLinks}>code</Tooltip>
-                </a>
+              
+                  <Tooltip links={codeLinks}><strong>codes</strong></Tooltip>
+              
               </p>
             </div>
             <div className="conteneurIntDgCARRE12">
-              <a href="">
                 {" "}
                 <Tooltip links={oeilLinks}>
                   <img src={oeil} alt="oeil" className="oeil" />
                 </Tooltip>{" "}
-              </a>
             </div>
           </div>
 
