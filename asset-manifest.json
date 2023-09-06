@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6f762216.css",
+    "main.js": "/portfolio/static/js/main.7709ce80.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/VIDEO04solutionTechnique.mp4": "/portfolio/static/media/VIDEO04solutionTechnique.f8469b2b6de191233837.mp4",
+    "static/media/VIDEO05optimisationDebogage.mp4": "/portfolio/static/media/VIDEO05optimisationDebogage.9ec112c7a80d737d180e.mp4",
+    "static/media/VIDEO06react.mp4": "/portfolio/static/media/VIDEO06react.041fa61ca4e9c03820b7.mp4",
+    "static/media/VIDEO03javascript.mp4": "/portfolio/static/media/VIDEO03javascript.920657ddc383f7aee451.mp4",
+    "static/media/VIDEO07backend.mp4": "/portfolio/static/media/VIDEO07backend.c2d647ef944d9eadefdd.mp4",
+    "static/media/VIDEO02implementationHTML5CSS3.mp4": "/portfolio/static/media/VIDEO02implementationHTML5CSS3.31d42e22e3b66f6bb6cf.mp4",
+    "static/media/Elodie_Piras_4_solution technique_052023.pdf": "/portfolio/static/media/Elodie_Piras_4_solution technique_052023.290b6cb4de452f0b6a0c.pdf",
+    "static/media/VIDEO01maquette.mp4": "/portfolio/static/media/VIDEO01maquette.04ac007ee2ca65d3175b.mp4",
+    "static/media/Piras_Elodie_livrable_n2_rapport_intervention_062023.pdf": "/portfolio/static/media/Piras_Elodie_livrable_n2_rapport_intervention_062023.7d169792e2c452a7d687.pdf",
+    "static/media/Elodie_Piras_1_veille_052023.pdf": "/portfolio/static/media/Elodie_Piras_1_veille_052023.f5724aeb3d613e02d9b0.pdf",
+    "static/media/Elodie_Piras_3_kanban_052023.pdf": "/portfolio/static/media/Elodie_Piras_3_kanban_052023.eb2acb73f6bc03924345.pdf",
+    "static/media/VIDEO08projetpersonnel.mp4": "/portfolio/static/media/VIDEO08projetpersonnel.d33b593280cc471d0358.mp4",
+    "static/media/Elodie_Piras_2__specifications techniques_052023.pdf": "/portfolio/static/media/Elodie_Piras_2__specifications techniques_052023.e8eb3a443a727aa630e0.pdf",
+    "static/media/04solutiontechnique.jpg": "/portfolio/static/media/04solutiontechnique.e7357f31ea0e99a39ddb.jpg",
+    "static/media/02implementation.jpg": "/portfolio/static/media/02implementation.38cdee580fc55cdbdb17.jpg",
+    "static/media/07backend.jpg": "/portfolio/static/media/07backend.710a8d79fba0e871894d.jpg",
+    "static/media/08projetperso.jpg": "/portfolio/static/media/08projetperso.1316474af0ed642a35d1.jpg",
+    "static/media/03JS.jpg": "/portfolio/static/media/03JS.c04a242dcef52a1b5210.jpg",
+    "static/media/05optimisationdebogage.jpg": "/portfolio/static/media/05optimisationdebogage.14d73f029f0fc2ebd9bc.jpg",
+    "static/media/01maquetteFigma.jpg": "/portfolio/static/media/01maquetteFigma.a347293fa2c08c50af25.jpg",
+    "static/media/06react.jpg": "/portfolio/static/media/06react.3d83864f52a547245b3b.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.6f762216.css.map": "/portfolio/static/css/main.6f762216.css.map",
+    "main.7709ce80.js.map": "/portfolio/static/js/main.7709ce80.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f762216.css",
+    "static/js/main.7709ce80.js"
+  ]
+}
